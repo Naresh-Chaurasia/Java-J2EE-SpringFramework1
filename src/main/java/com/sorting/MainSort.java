@@ -7,11 +7,11 @@ public class MainSort {
         int userInput = 0;
         ISort sortAlgorithm;
 
-        int arr [] = {10};
+        int arr[] = { 10 };
 
-        if(userInput > 10){
+        if (userInput > 10) {
             sortAlgorithm = new BubbleSort();
-        }else{
+        } else {
             sortAlgorithm = new QuickSort();
         }
 
