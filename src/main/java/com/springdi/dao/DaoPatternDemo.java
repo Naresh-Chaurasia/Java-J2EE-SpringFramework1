@@ -6,6 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class DaoPatternDemo {
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(DaoConfig.class);
+
         UserDao userDao = context.getBean(UserDao.class);
 
         // Add users
