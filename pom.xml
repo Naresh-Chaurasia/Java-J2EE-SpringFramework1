@@ -45,6 +45,20 @@
 			<version>1.3.2</version>
 		</dependency>
 
+		<!-- Spring AOP -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop</artifactId>
+			<version>6.1.4</version>
+		</dependency>
+
+		<!-- AspectJ Weaver (required for Spring AOP) -->
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>1.9.21.1</version>
+		</dependency>
+
 
 	</dependencies>
 
