@@ -7,6 +7,7 @@ public class BeanLifeDemo {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(BeanLifeConfig.class);
 
         System.out.println("Singleton scope:");
+       
         LifecycleBean singleton1 = context.getBean("singletonBean", LifecycleBean.class);
         LifecycleBean singleton2 = context.getBean("singletonBean", LifecycleBean.class);
         singleton1.showHash();
